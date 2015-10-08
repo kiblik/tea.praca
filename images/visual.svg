@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generované programom Microsoft Visio, SVG Export visual.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="11.6929in" height="8.26772in"
+		viewBox="0 0 841.89 595.276" xml:space="preserve" color-interpolation-filters="sRGB" class="st4">
+	<v:documentProperties v:langID="1051" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(0):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:Calibri;font-size:1.00001em}
+		.st3 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st4 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Strana-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="Spojnica" v:index="0"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(171.865,-328.819)">
+			<title>Cloud</title>
+			<desc>network</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+			<v:textRect cx="48.7134" cy="595.276" width="97.43" height="0"/>
+			<rect v:rectContext="foreign" x="0" y="538.583" width="97.4268" height="56.6929" class="st1"/>
+			<switch>
+				<foreignObject x="0" y="538.583" width="97.4268" height="56.6929"
+						requiredExtensions="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+					<v:foreignData v:orgSize="656" v:data="data:metafile;base64,eNpdkE0rRGEUx88d55GXMQaTlFGTTKZYWFhovI1iarysFEIm
+								M2bKglmMmuYLWEmGDRKWPoMFDY2tlB2lrCwlm3PLPM4dx3Vz6tf/PM99zj3n/A0A2GKSBkDpS+sHVlXWeq4HYPpS69sBAP+N
+								1oGJmSiAAXsugFZ+X8U0MAsggT+XEa5/53QM1iADCUhBAGYhD1nukoINVoAmxs3UMM2ScxnUMV74C/e/c62cn7jPMM9RL+cY
+								F1+ztkgNf4Jupk3+a4XWuqJBR7840y/ve+Xdr0KnUbm3ojF7bs8QdPQIS26tPij7tMtMJ3yZIq0tf56ZFW5YZH8fWavZ3z7L
+								c1ykccxRDAvMvo0fjymE9zTCRByE8Y0yaJg7+Em7+GFziLXmFbrNV2wwXcpj+pTb7FRl6nIwr1zmpnqhpLqjtCrZ5FSR8uqI
+								ltQBLauCzbrK0aSKU0AlqUMlbDRG6QKn6BTTNCw7D4mOiudn20aF1XxZW4Qcnocc/nkYn/jqlfwbECqUbA=="/>
+				</foreignObject>
+				<svg viewBox="355.01 -571.01 109.98 64" enable-background="new" color-interpolation-filters="sRGB" height="56.6929"
+						preserveAspectRatio="none" width="97.4268" x="0" y="538.583">
+					<defs>
+						<clipPath id="mfid1">
+							<rect id="mfid2" x="355.01" y="-571.01" width="109.98" height="64"/>
+						</clipPath>
+					</defs>
+					<g clip-path="url(#mfid1)">
+						<defs>
+							<g id="mfid3">
+								<path transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+										d="M1180,-1691 C1123,-1702 1092,-1673 1097,-1647 C1097,-1646 1097,-1646 1097,-1646 C1052,-1638 1064,-1585 1086,-1585 C1088,-1585 1088,-1585 1088,-1585 C1082,-1560 1135,-1535 1164,-1548 C1166,-1550 1166,-1550 1166,-1550 C1176,-1527 1214,-1524 1250,-1523 C1282,-1522 1300,-1524 1314,-1538 C1316,-1538 1316,-1538 1316,-1538 C1367,-1534 1390,-1569 1379,-1594 C1382,-1595 1382,-1595 1382,-1595 C1399,-1599 1401,-1639 1371,-1645 C1372,-1647 1372,-1647 1372,-1647 C1385,-1673 1354,-1697 1312,-1693 C1309,-1694 1309,-1694 1309,-1694 C1279,-1722 1192,-1717 1182,-1690 Z"/>
+							</g>
+						</defs>
+						<g transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)">
+							<g stroke-width="2" stroke="#0f73a0" fill="#ffffff">
+								<use xlink:href="#mfid3" transform="matrix(3, -0, -0, 3, -0, 0)" stroke="none"/>
+								<use xlink:href="#mfid3" fill="none" transform="matrix(3, -0, -0, 3, -0, 0)"/>
+							</g>
+						</g>
+					</g>
+				</svg>
+			</switch>
+			<rect v:rectContext="foreign" x="0" y="538.583" width="97.4268" height="56.6929" class="st1"/>
+			<text x="28.29" y="610.08" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>network</text>		</g>
+		<g id="shape3-5" v:mID="3" v:groupContext="shape" transform="translate(521.575,-330.017)">
+			<title>PC</title>
+			<desc>analyzer</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+			<v:textRect cx="28.3465" cy="595.276" width="56.7" height="0"/>
+			<rect v:rectContext="foreign" x="0" y="540.978" width="56.6929" height="54.2976" class="st1"/>
+			<switch>
+				<foreignObject x="0" y="540.978" width="56.6929" height="54.2976"
+						requiredExtensions="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+					<v:foreignData v:orgSize="2084" v:data="data:metafile;base64,eNrVlU9IVEEcx3+j80DT0tQk6iKRuIfoZBCWVIe6depQ5CF
+								a8hgpRuFFlGCRbp2SQMw/uUtFe+hohy5h1CEWb3npRSyVUYvQnwlq/P6m327T87m74cmBD7+Z92a+v998d2eeIqKrYFQRvfx
+								l7WPEH4hvDhLVLVi75xBR6qm1HSdPnyJStL+O6Czma7AdnCNp/KCW6DjWF9A9QZfoCiWpnzroDA3TELL002VEop2gEUCKWqS
+								PZbQNNNPf1hgZ18v4GSZPgAYZ3wbjoFXW1IAusFt0uTUN3XWx08t3AXTL/AMyrxhpn3LPuVlrSzV0ejl6pM9b7wOHxcf38O8
+								h4ioi5wkEFSwZFSyYG5rh/pKJq7lWcjUMTv2Tk58nvPr9/MW9qJi9BBTffC8SXh19snYSLz5hD/cRP8teaoTX+rn5CTbrob8
+								f/zdTFepkL87/R51b1+dF1L+4BXz+U2c5n6NnsJzPxfPEuUK5l6LnqT14YtqDtDtTfJZ43FrhfM5C4At0MnLP+XorOm9WdGi
+								+6RxYNjyupDcGga/QuRerFzqNlCN02tXoFev7HqPHOrdcfbmq9EY9/z6u8y9tJnTa3UfsIY8r6Y1D4BV05hHzEb2CzpqCHjB
+								3HNzPbqh3RO7/vXKHT+PhiLGWvycD4CaEc9CfQ3yHuMvNuW7S+lqJZRCCD44Rj0kwA+bNW50p8QhkwCyYxnumV+o4KvGY/Ge
+								nUspxcfi3Zarx5QXqfCB1+75YnUTepPOF/eFxuW9V9D6Knse4/HNe/vy6/DMuZ8HlzxoeJza4k3aANqmjWfpr8el+vw=="/>
+				</foreignObject>
+				<svg viewBox="384 -564.99 51.008 44.992" enable-background="new" color-interpolation-filters="sRGB"
+						height="54.2976" preserveAspectRatio="none" width="56.6929" x="0" y="540.978">
+					<defs>
+						<clipPath id="mfid4">
+							<rect id="mfid5" x="384" y="-564.99" width="51.008" height="44.992"/>
+						</clipPath>
+					</defs>
+					<g clip-path="url(#mfid4)">
+						<g transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)">
+							<g stroke-width="2" stroke="#ffffff" fill="#0f73a0">
+								<path d="M1281,-1581 L1281,-1605 L1155,-1605 L1155,-1581 L1281,-1581 Z"/>
+							</g>
+							<g stroke-width="2.0244" stroke="none" fill="#0b719f">
+								<path d="M1242,-1592 L1274,-1592 Z"/>
+							</g>
+							<g stroke-width="2" stroke="#ffffff" fill="none">
+								<path fill="none" d="M1242,-1592 L1274,-1592"/>
+							</g>
+							<g stroke-width="2.0244" stroke="none" fill="#0b719f">
+								<path d="M1242,-1593 L1274,-1593 Z"/>
+							</g>
+							<g stroke-width="2" stroke="#ffffff" fill="none">
+								<path fill="none" d="M1242,-1593 L1274,-1593"/>
+							</g>
+							<g stroke-width="2" stroke="#ffffff" fill="#0f73a0">
+								<path d="M1302,-1604 L1302,-1625 L1281,-1605 L1281,-1581 L1302,-1604 Z"/>
+								<path d="M1259,-1562 L1259,-1567 L1270,-1583 L1270,-1573 L1259,-1562 Z"/>
+								<path d="M1259,-1567 L1259,-1562 L1158,-1562 L1158,-1567 L1259,-1567 Z"/>
+								<path d="M1259,-1567 L1158,-1567 L1169,-1583 L1270,-1583 L1259,-1567 Z"/>
+								<path d="M1302,-1625 L1176,-1625 L1155,-1605 L1281,-1605 L1302,-1625 Z"/>
+								<path d="M1264,-1617 L1264,-1680 L1178,-1680 L1178,-1617 L1264,-1617 Z"/>
+							</g>
+						</g>
+						<defs>
+							<g id="mfid6">
+								<path transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+										d="M1185,-1666 C1185,-1673 1191,-1674 1191,-1674 C1191,-1674 1243,-1674 1249,-1674 C1257,-1674 1257,-1666 1257,-1666 C1257,-1666 1257,-1635 1257,-1630 C1257,-1626 1250,-1624 1250,-1624 C1250,-1624 1198,-1624 1192,-1624 C1187,-1624 1185,-1630 1185,-1630 Z"/>
+							</g>
+						</defs>
+						<g transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)">
+							<g stroke-width="2" stroke="#ffffff" fill="#0f73a0">
+								<use xlink:href="#mfid6" transform="matrix(3, -0, -0, 3, -0, 0)" stroke="none"/>
+								<use xlink:href="#mfid6" fill="none" transform="matrix(3, -0, -0, 3, -0, 0)"/>
+								<path d="M1279,-1694 L1192,-1694 L1178,-1680 L1264,-1680 L1279,-1694 Z"/>
+							</g>
+							<g stroke-width="2" stroke="#ffffff" fill="#0b719f">
+								<path d="M1279,-1630 L1279,-1694 L1264,-1680 L1264,-1617 L1279,-1630 Z"/>
+							</g>
+						</g>
+					</g>
+				</svg>
+			</switch>
+			<rect v:rectContext="foreign" x="0" y="540.978" width="56.6929" height="54.2976" class="st1"/>
+			<text x="7.91" y="610.08" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>analyzer</text>		</g>
+		<g id="shape4-9" v:mID="4" v:groupContext="shape" transform="translate(462.118,-402.52)">
+			<title>Relational database</title>
+			<desc>storage</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+			<v:textRect cx="24.9307" cy="595.276" width="49.87" height="0"/>
+			<rect v:rectContext="foreign" x="0" y="518.301" width="49.8614" height="76.9748" class="st1"/>
+			<switch>
+				<foreignObject x="0" y="518.301" width="49.8614" height="76.9748"
+						requiredExtensions="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+					<v:foreignData v:orgSize="688" v:data="data:metafile;base64,eNqNkT1IA0EQhd/qHfgTYzQWgiBBCKYIVqn8QS1MZSqbdKIk
+								10kI2kQ4URCLq1MGtNdCSGlxkPLQKnU6a7W9Qte350QXqyx8vNnNzM2biQJwRq4U8PKp9T31jarXgPKT1rkSUAmpe5UyoPA4
+								Biwzf5zMkCrkOD+PO6z/YLiLGho4Rh05HKCFU3ap44QKzJEUmSDzErMMUySDv5P6d5+U+zmTi2Ra7hekRrJSQ4tYJYvyXXPS
+								jU6ieavfISlJflHyhooVlbybw238eshbPdYlNqNvyDxLQ88u4MdaV2VHl2zY514fqO/U2SQniF+ddtwjd+TaCYhPuhYhf4uY
+								EzE3iuGGpBtvSb9N0W2Z9/ZGJRy1vrQhO6LfHh/b4ndf/D6L3wHV1BmvxjNcnzTpx6Mvj/48+myK9yCZxcw0qseC9Z8ULL9p
+								siB7z0j8DZ95iIc="/>
+				</foreignObject>
+				<svg viewBox="384.99 -563.01 42.016 32.992" enable-background="new" color-interpolation-filters="sRGB"
+						height="76.9748" preserveAspectRatio="none" width="49.8614" x="0" y="518.301">
+					<defs>
+						<clipPath id="mfid7">
+							<rect id="mfid8" x="384.99" y="-563.01" width="42.016" height="32.992"/>
+						</clipPath>
+					</defs>
+					<g clip-path="url(#mfid7)">
+						<defs>
+							<g id="mfid9">
+								<path transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+										d="M1280,-1667 C1280,-1654 1252,-1644 1218,-1644 C1184,-1644 1156,-1654 1156,-1667 C1156,-1613 1156,-1613 1156,-1613 C1156,-1601 1184,-1590 1218,-1590 C1252,-1590 1280,-1601 1280,-1613 Z"/>
+							</g>
+						</defs>
+						<g transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)">
+							<g stroke-width="2" stroke="#ffffff" fill="#0e6f9c">
+								<use xlink:href="#mfid9" transform="matrix(3, -0, -0, 3, -0, 0)" stroke="none"/>
+								<use xlink:href="#mfid9" fill="none" transform="matrix(3, -0, -0, 3, -0, 0)"/>
+							</g>
+						</g>
+						<defs>
+							<g id="mfid10">
+								<path transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
+										d="M1218,-1644 C1252,-1644 1280,-1654 1280,-1667 C1280,-1679 1252,-1690 1218,-1690 C1184,-1690 1156,-1679 1156,-1667 C1156,-1654 1184,-1644 1218,-1644 Z"/>
+							</g>
+						</defs>
+						<g transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)">
+							<g stroke-width="2" stroke="#ffffff" fill="#0e6f9c">
+								<use xlink:href="#mfid10" transform="matrix(3, -0, -0, 3, -0, 0)" stroke="none"/>
+								<use xlink:href="#mfid10" fill="none" transform="matrix(3, -0, -0, 3, -0, 0)"/>
+							</g>
+						</g>
+					</g>
+				</svg>
+			</switch>
+			<rect v:rectContext="foreign" x="0" y="518.301" width="49.8614" height="76.9748" class="st1"/>
+			<text x="6.63" y="610.08" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>storage</text>		</g>
+		<g id="shape11-13" v:mID="11" v:groupContext="shape" transform="translate(286.228,-315.524)">
+			<title>File/ Application Server </title>
+			<desc>exporter</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+			<v:textRect cx="31.252" cy="595.276" width="62.51" height="0"/>
+			<rect v:rectContext="foreign" x="0" y="511.994" width="62.5039" height="83.2819" class="st1"/>
+			<switch>
+				<foreignObject x="0" y="511.994" width="62.5039" height="83.2819"
+						requiredExtensions="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+					<v:foreignData v:orgSize="3656" clip="rect(0 0 0 0)" v:data="data:metafile;base64,eNqlV11oXEUU/ube3c1uNiYbN7
+								ZpjZINybrGRGMNktaoi83G1NYfrGnF+FdJ8EELCRqDPw8BFUsfbFMx2GLFgJG29KE+tA00QvxBAq3Eh4qKpFixFJGKxBZLlR
+								3PuTNzd7Ld1dXc5Ow9M/Pdb74zc2fOXAHgWbJ3y4CWCLCf7EwUuK0e+CUJfJsCBlYB9Zl7uwGBnkrgKcIHsfiqiwMXa4E58q
+								vE4rafUy4u1AdABGghI2oQ3Q0iLVBHfozMic18z9iHHWWMfZTsAY1tSAdQofmuTUd8v5E4jN+WdjyugFcavTORLvPbAmn4Pn
+								OnWDPZ3V3r1lJ32Evxt1Ls+8h+iuZwP7jASVdpaCaORqqr1fz8oyznJ9JBv59wGsFOerbNVfFxP2xhKn/z5Rd7qAfZmF0jPk
+								a9N2InN/EIkwD3NSq7qFbKyVwR9kY86jRmuyV7Fc5u57zgtpBwQOLxF1EfPbpXP9FKDGG6X3K4HMA9627V9cLj7QgKhNAjx7
+								M98hhmwca+snze2dkjPq/j3X8j/sU8UzKZ7RDJ7OU8wud5+aVHLH2Kxymi0/Rj62WdHWI9TD9K9zHNb147E6fRafgj9Hfu3N
+								mC/Te5Du6XrfJTtEobf7ke+PgNsll+jmZZOv9p+QlO/wf+U8R/qmT+r+S4vB3jMlcepvKwrNLjF8QApuUANspJycb+tI8O4m
+								3JVqq6E3KXXI1dMlceovKQ1dsWTMktFPWEZGN/ykcLjEk2M8cmFtdfOyJs1hqvHZ5bN2/PuZrWI/2jHbxu1NoC1nwG/Ep2aS
+								3SyS5+Rs793iXPXpnpHV6Z4TuXe2+5I5OAiob3swrNUaiuWvtcX673q24pae1KGdHl8wTc7Sgcl9+jV/JGaozqcoTaDjs5/i
+								bNSbBR4/P+sSzne7Ebf4X2qVvUaP8KsgfJBoXSGVN8/jWtBgRljtOwES/iOTxPb8BW/N/rvlhifgUOiX1NCyMPjcWRaV8YYQ
+								0raxKPm3rbT2K74HIU28Se0LYIazy4M47jvQr3/mMLIyzxBHHxxbiZ4GLc4Dt1YByN3HwMO4VZ41x/cEfc6ztB/aDyGs9fTn
+								33lF2FrcGxV4Zisa/DVM8Gb263i6mpBLLLE3fxPDIuGQKW1ba9OUP1bLyuGFdD/felFkZmqhu8uPtf8KbNnzdRwrsQ11iO8T
+								rzLmv9aqfO8XF9Uuck19rH+OJVaHDc1kfWqXP2BHXarnM2awppK7azF9Jk+lG7fE5TQOdJg7f7NWcFtvx+C2WCuDVu+WOhss
+								LisUhZGsy4BP5hXGyt9hixTvtcY2stlk0MJ+XZ0VSB+TG6I/rOe3Ix7ZuhzgwTNGad9MK00UM95Qpn8k1+fJF/ic+xeHmfWU
+								18q+ihjOY1eWmpei8S3030UCBq9Kr8tVS9F7ReETV6VZ5bit4Urc4DxDtJ9yN6HEw+tDFvaMxbPkblSH5fOsj+JH391DZHmP
+								ly9b4EtRXKnob7CcLvJ/wzdD+suU1GXcp4NRLfJPFN0P0jzWsyr415VWN2+BiVjU1cf1BcT1LbccJ8lxdXoTxtuPsI/wHhn6
+								b7Ic1tcrc9D8XyWZv2q6x6+oQYXa/3SmgN9jM2V0Mu78mmXN7z1yXHYWNsn8/vg2T9+huixTq/b+p93T+zb2Y/EMr0nrk5U9
+								oZv/h3RY3O7/xd4eq6dj23JX9DFDiDbNBxmHPFh2Q/RnNlc764HgesjO1xFvALX/ljZ77NWLdjxVmp44RuZ/9vvJsjTQ=="/>
+				</foreignObject>
+				<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+				<svg viewBox="1949.9 2349.9 521.1 692.98" clip="rect(0 0 0 0)" height="83.2819" overflow="hidden"
+						preserveAspectRatio="none" width="62.5039" x="0" y="511.994">
+					<!-- GetDC -->
+					<!-- Released DC -->
+					<defs>
+						<svg viewBox="0 0 166.67 221.67" enable-background="new" color-interpolation-filters="sRGB" height="665"
+								id="mfid11" width="500">
+							<defs>
+								<clipPath id="mfid12">
+									<rect id="mfid13" x="0" y="0" width="166.67" height="221.67"/>
+								</clipPath>
+							</defs>
+							<g clip-path="url(#mfid12)"/>
+						</svg>
+					</defs>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetObject Obj_ImageAttributes -->
+					<g>
+						<g color-rendering="optimizeSpeed">
+							<clipPath id="mfid14">
+								<rect x="-186" y="-476" width="500" height="665"/>
+							</clipPath>
+							<use xlink:href="#mfid11" clip-path="url(#mfid14)"
+									transform="matrix(1.0417, 0, 0, 1.0417, 2144.2, 2846.3)"/>
+						</g>
+					</g>
+					<!-- GetDC -->
+					<!-- Released DC -->
+				</svg>
+			</switch>
+			<rect v:rectContext="foreign" x="0" y="511.994" width="62.5039" height="83.2819" class="st1"/>
+			<text x="10.17" y="610.08" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>exporter</text>		</g>
+		<g id="shape13-17" v:mID="13" v:groupContext="shape" v:layerMember="0" transform="translate(269.291,-350.079)">
+			<title>Dynamická spojnica</title>
+			<path d="M0 588.19 L17.19 588.19" class="st3"/>
+		</g>
+		<g id="shape14-20" v:mID="14" v:groupContext="shape" transform="translate(376.866,-315.524)">
+			<title>File/ Application Server .14</title>
+			<desc>collector</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+			<v:textRect cx="31.252" cy="595.276" width="62.51" height="0"/>
+			<rect v:rectContext="foreign" x="0" y="511.994" width="62.5039" height="83.2819" class="st1"/>
+			<switch>
+				<foreignObject x="0" y="511.994" width="62.5039" height="83.2819"
+						requiredExtensions="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+					<v:foreignData v:orgSize="3656" clip="rect(0 0 0 0)" v:data="data:metafile;base64,eNqlV11oXEUU/ube3c1uNiYbN7
+								ZpjZINybrGRGMNktaoi83G1NYfrGnF+FdJ8EELCRqDPw8BFUsfbFMx2GLFgJG29KE+tA00QvxBAq3Eh4qKpFixFJGKxBZLlR
+								3PuTNzd7Ld1dXc5Ow9M/Pdb74zc2fOXAHgWbJ3y4CWCLCf7EwUuK0e+CUJfJsCBlYB9Zl7uwGBnkrgKcIHsfiqiwMXa4E58q
+								vE4rafUy4u1AdABGghI2oQ3Q0iLVBHfozMic18z9iHHWWMfZTsAY1tSAdQofmuTUd8v5E4jN+WdjyugFcavTORLvPbAmn4Pn
+								OnWDPZ3V3r1lJ32Evxt1Ls+8h+iuZwP7jASVdpaCaORqqr1fz8oyznJ9JBv59wGsFOerbNVfFxP2xhKn/z5Rd7qAfZmF0jPk
+								a9N2InN/EIkwD3NSq7qFbKyVwR9kY86jRmuyV7Fc5u57zgtpBwQOLxF1EfPbpXP9FKDGG6X3K4HMA9627V9cLj7QgKhNAjx7
+								M98hhmwca+snze2dkjPq/j3X8j/sU8UzKZ7RDJ7OU8wud5+aVHLH2Kxymi0/Rj62WdHWI9TD9K9zHNb147E6fRafgj9Hfu3N
+								mC/Te5Du6XrfJTtEobf7ke+PgNsll+jmZZOv9p+QlO/wf+U8R/qmT+r+S4vB3jMlcepvKwrNLjF8QApuUANspJycb+tI8O4m
+								3JVqq6E3KXXI1dMlceovKQ1dsWTMktFPWEZGN/ykcLjEk2M8cmFtdfOyJs1hqvHZ5bN2/PuZrWI/2jHbxu1NoC1nwG/Ep2aS
+								3SyS5+Rs793iXPXpnpHV6Z4TuXe2+5I5OAiob3swrNUaiuWvtcX673q24pae1KGdHl8wTc7Sgcl9+jV/JGaozqcoTaDjs5/i
+								bNSbBR4/P+sSzne7Ebf4X2qVvUaP8KsgfJBoXSGVN8/jWtBgRljtOwES/iOTxPb8BW/N/rvlhifgUOiX1NCyMPjcWRaV8YYQ
+								0raxKPm3rbT2K74HIU28Se0LYIazy4M47jvQr3/mMLIyzxBHHxxbiZ4GLc4Dt1YByN3HwMO4VZ41x/cEfc6ztB/aDyGs9fTn
+								33lF2FrcGxV4Zisa/DVM8Gb263i6mpBLLLE3fxPDIuGQKW1ba9OUP1bLyuGFdD/felFkZmqhu8uPtf8KbNnzdRwrsQ11iO8T
+								rzLmv9aqfO8XF9Uuck19rH+OJVaHDc1kfWqXP2BHXarnM2awppK7azF9Jk+lG7fE5TQOdJg7f7NWcFtvx+C2WCuDVu+WOhss
+								LisUhZGsy4BP5hXGyt9hixTvtcY2stlk0MJ+XZ0VSB+TG6I/rOe3Ix7ZuhzgwTNGad9MK00UM95Qpn8k1+fJF/ic+xeHmfWU
+								18q+ihjOY1eWmpei8S3030UCBq9Kr8tVS9F7ReETV6VZ5bit4Urc4DxDtJ9yN6HEw+tDFvaMxbPkblSH5fOsj+JH391DZHmP
+								ly9b4EtRXKnob7CcLvJ/wzdD+suU1GXcp4NRLfJPFN0P0jzWsyr415VWN2+BiVjU1cf1BcT1LbccJ8lxdXoTxtuPsI/wHhn6
+								b7Ic1tcrc9D8XyWZv2q6x6+oQYXa/3SmgN9jM2V0Mu78mmXN7z1yXHYWNsn8/vg2T9+huixTq/b+p93T+zb2Y/EMr0nrk5U9
+								oZv/h3RY3O7/xd4eq6dj23JX9DFDiDbNBxmHPFh2Q/RnNlc764HgesjO1xFvALX/ljZ77NWLdjxVmp44RuZ/9vvJsjTQ=="/>
+				</foreignObject>
+				<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+				<svg viewBox="1949.9 2349.9 521.1 692.98" clip="rect(0 0 0 0)" height="83.2819" overflow="hidden"
+						preserveAspectRatio="none" width="62.5039" x="0" y="511.994">
+					<!-- GetDC -->
+					<!-- Released DC -->
+					<defs>
+						<svg viewBox="0 0 166.67 221.67" enable-background="new" color-interpolation-filters="sRGB" height="665"
+								id="mfid15" width="500">
+							<defs>
+								<clipPath id="mfid16">
+									<rect id="mfid17" x="0" y="0" width="166.67" height="221.67"/>
+								</clipPath>
+							</defs>
+							<g clip-path="url(#mfid16)"/>
+						</svg>
+					</defs>
+					<!-- Unsupported Record: EmfPlusRecordTypeSetObject Obj_ImageAttributes -->
+					<g>
+						<g color-rendering="optimizeSpeed">
+							<clipPath id="mfid18">
+								<rect x="-186" y="-476" width="500" height="665"/>
+							</clipPath>
+							<use xlink:href="#mfid15" clip-path="url(#mfid18)"
+									transform="matrix(1.0417, 0, 0, 1.0417, 2144.2, 2846.3)"/>
+						</g>
+					</g>
+					<!-- GetDC -->
+					<!-- Released DC -->
+				</svg>
+			</switch>
+			<rect v:rectContext="foreign" x="0" y="511.994" width="62.5039" height="83.2819" class="st1"/>
+			<text x="10.01" y="610.08" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>collector</text>		</g>
+		<g id="shape18-24" v:mID="18" v:groupContext="shape" v:layerMember="0" transform="translate(377.123,-350.079)">
+			<title>Dynamická spojnica.18</title>
+			<path d="M0 588.19 L-28.65 588.19" class="st3"/>
+		</g>
+		<g id="shape19-27" v:mID="19" v:groupContext="shape" v:layerMember="0" transform="translate(462.118,-414.525)">
+			<title>Dynamická spojnica.19</title>
+			<path d="M0 595.28 L-23 619.71" class="st3"/>
+		</g>
+		<g id="shape20-30" v:mID="20" v:groupContext="shape" v:layerMember="0" transform="translate(529.563,-384.314)">
+			<title>Dynamická spojnica.20</title>
+			<path d="M0 595.28 L-17.58 571.83" class="st3"/>
+		</g>
+	</g>
+</svg>
