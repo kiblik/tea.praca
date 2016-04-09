@@ -1,0 +1,148 @@
+\chapter{Metodika u\texorpdfstring{č}{c}enia}
+
+Programovací jazyk v prostredí Karel je jednoduchý, ale má silu Turingovho stroja\todo{bolo by dobre preverit a nejak jednoducho dokazat}.
+Pri konštrukcií nie je možné využiť premenné, ale vďaka rekurzii je možné určité zapamätanie si počtov.
+Učiteľ by pri tvorbe úloh pre žiakov nemal zabúdať na tieto vlastnosti a mal by príslušne k tomu upraviť náročnosť úloh.
+
+Neskôr si ukážeme, že existujú typy úloh, ktoré bude možné riešiť cyklami, ale použitím rekurzie sa nám riešenie podstatne zjednoduší.
+V nasledujúcej kapitole prejdeme jednotlivými konštrukciami, ktoré prostredie ponúka a ukážeme si vhodné úlohy, ktoré je možné použiť pre výučbe.
+Budeme postupovať od jednoduchších k zložitejším tak, ako by ich bolo vhodné použiť pri učení. 
+
+Vhodné úlohy pre prostredie Karel boli publikované v Časopise Zenit\cite{ZENIT}.
+Edukácia bola mladým čitateľom priblížené prívetivej podobe a časopis dokonca organizoval programátorskú súťaž v jazyku Karel.
+Určitá časť úloh bude uvedená v jednotlivých častiach metodickej príručky.
+
+V ďalšej časti budeme používať pojem vlastný príkaz\footnote{resp. príkaz}.
+V bežnej praxi sa tento pojem zamieňa tiež sa pojmy procedúra alebo funkcia\footnote{v závislosti od kontextu}, ale pre zjednodušenie pochopenia princípu žiakom druhého stupňa sme uprednostnili tento pojem.
+
+\section{Uvodne}
+
+\todo[inline]{rozumne povenovat sekciu, pripadne pridat dalsiu a naplnit obsahom}
+
+\section{Rekurzia}
+
+Rekurzia je pre žiakov základnej školy na pochopenie netriviálny koncept.
+Nie je však nezvládnuteľný.
+Niektorí učitelia sa rozhodnú ho neučiť, čo je podľa autora nevhodné a pokiaľ im to dovoľuje časová dotácia ich vyučovacích hodín, mali by túto látku do procesu zaradiť.
+
+Štátny vzdelávací program\cite{ISCED2} neprikazuje učenie tohto konceptu a zostáva pri premenných, cykloch či procedúrach.
+ŠVP je dokument určujúci minimálny obsah učiva avšak rozšírenie o rekurziu je prakticky žiadúce\footnote{podľa názoru autora práce}.
+
+Rekurziu je možné žiakom popísať ako príkaz, ktorý volá samého seba. Praktickým príkladom môžu byť žiakom napríklad matriošky\footnote{duté drevenené figúrky skoro valcovitého tvaru rôznej veľkosti, ktoré je možné vzájomne do seba vložiť}.
+Pre programatórske účeli sa hodí vizuálna podoba prostredníctvom obrázku \ref{priamarekurzia}, kde je znázornená priamá rekurzia.
+
+\begin{figure}[ht]
+\centering
+\missingfigure{Sem pôjde obrázok priamej rekurzie}
+\caption{Priama rekurzia}
+\label{priamarekurzia}
+\end{figure}
+
+Poznáme samozrejme aj nepriamu rekurziu.
+V tomto prípade nejde o volanie ,,samého seba'', ale o nepriame volanie prostredníctvom ďalšieho príkazu (alebo viacerých príkazov) - viď obrázok \ref{nepriamarekurzia}.
+
+\begin{figure}[ht]
+\centering
+\missingfigure{Sem pôjde obrázok nepriamej rekurzie}
+\caption{Nepriama rekurzia}
+\label{nepriamarekurzia}
+\end{figure}
+
+Rekurziu môžeme najsť aj v iných programovacích jazykoch učených pre deti.
+Príkladom je jazyk Logo-vského typu v prostredí Imagine alebo Scratch.
+
+Poznáme rekruzie troch typov a postupne prejdeme cez jednotlivé typy.
+
+\subsection{Nekone\texorpdfstring{č}{c}ná rekurzia}
+
+Už z názvu je zrejmé, že ide o rekurziu, ktorej koniec nie je podmienený jazykom Karela. Je ale limitované prostredím Karel\footnote{rekurzia sa implementuje prostredníctvom zásobníka a ten nie je nekonečný}. Žiakom prívetivým príkladom môže byť kvetinka, ktorá sa objavuje a mizne z príkladu \ref{kvetinka}
+
+\begin{lstlisting}[label=kvetinka,caption=Kvetinka,captionpos=b]
+prikaz a
+  ak je tehla rob
+    zober
+  inak
+    poloz
+  *ak
+  a
+*prikaz
+\end{lstlisting}
+
+Tiež je žiakom možné túto rekurziu ilustrovať na príklade spomenutom aj v \cite{Snajder03} a to pesničkou: ,,Byl jeden Číňánek, měl hezký copánek, vyskočil na tramvaj \ldots a na hrob napsala ,,Byl jeden Číňanek '' \ldots ''.
+Ide o pesničku založenú na neustálom opakovaní rovnakého celku, pričom záverečný verš odkazuje na ďalšie spievanie toho istého celku, nakoľko tematicky nadväzuje.
+Celý text je uvedený aj v prílohe \ref{priloha:cinanek}.
+
+Vrámci trénovania štrvtého stupňa Bloomovej taxonímie\cite{bloomtax} by bolo vhodné zanalyzovať so žiakmi príklady \ref{nekonecna_zaciatok} a \ref{nekonecna_koniec}.
+
+\begin{lstlisting}[label=nekonecna_zaciatok,caption=Nekonečná rekurzia s volaním na začiatku,captionpos=b]
+prikaz b
+  b
+  vlavo
+*prikaz
+\end{lstlisting}
+
+\begin{lstlisting}[label=nekonecna_koniec,caption=Nekonečná rekurzia s volaním na konci,captionpos=b]
+prikaz c
+  vlavo
+  c
+*prikaz
+\end{lstlisting}
+
+V posudzovaní príkladu je potrebné, aby si žiaci uvedomili, že kódy programov sú veľmi podobné, ale budú mať odlišné správanie.
+Zatiaľ čo v prvom prípade sa Karel nepohne, pretože bude vždy vnáraný sám do seba, v druhom bude nastávať otáčanie, lebo vnáranie nastáva až po zavolaní príkazu vlavo.
+
+Z praktického hľadiska je potrebné učiteľov upozorniť, že aplikácia je naprogramovaná formou zásobníka a pri každom volaní vlastného príkazu si odloží referenciu na miesto, kam s má vrátiť.
+Tento druh implementácie môže spôsobiť preplnenie zásobníka a následne pád programu.
+Keďže veľkosť operačnej pamäte je veľká, napĺňanie zásobníka bude trvať netriviálny čas, ale pri zanechaní programu bežať ho dostatočne dlho, dôjde k úplne preplneniu.
+
+\subsection{Vchostová rekurzia}
+
+O chvostovú rekurziu ide v prípade, že volanie sa nachádza na konci procedúry. Ide o typ konštrukcie, ktorá je zapísateľná aj v nerekurzívnej forme. Preto sú nasledujúce dva príklady z \cite{Snajder03} ekvivalentné.
+
+\begin{lstlisting}[label=chvostova_rekurzia,caption=Chvostová prekurzia,captionpos=b]
+prikaz y
+  ak nie je stena rob
+    krok
+    y
+  *ak
+*prikaz
+\end{lstlisting}
+
+\begin{lstlisting}[label=eq_chvostova_rek,caption=Nerekuzívne riešenie problému \ref{chvostova_rekurzia},captionpos=b]
+prikaz x
+  kym nie je stena rob
+    krok
+  *kym
+*prikaz
+\end{lstlisting}
+
+
+\todo[inline]{napad na zlepsenie prostredia = mato vobec vyznam?
+
+Podla Blaha – pripisanie celeho tela na koniec
+}
+
+\subsection{Pravá rekurzia}
+\todo[inline]{ved vieme co tu treba}
+
+\section{narocne ulohy}
+
+\todo[inline]{
+- po skonceni zakladnych ulohy, hodili by sa aj zaujmave. Prve napady: najdi cestu v bludisku - pre mladsich pravidlo pravej/lavej ruky, pre starsich prehladavanie do hlbky, rozlozenie 8 dam/znaciek na sachovnici}
+
+\todo[inline]{ulohy zo zenitu:
+ulohy:
+- cvz
+- postav stlp
+- urob chodnik
+- chod po moste - nespadni do vody
+- invertuj rad
+- objavujuca sa a miznuca kvetinka
+- prejdi cez mur - konkretna vyska, lubovolna vyska(otvorit si miestnist, preniest stlp, zatvorit miestnost)
+- pohyb po papiery
+- studna
+- studna bez stupania na policka
+- dlazdicvoanie miestnosti - po radoch, eSicko alebo spirala, 3 rady(vlavo, podseba, vpravo)
+- sachovnica
+- 
+}

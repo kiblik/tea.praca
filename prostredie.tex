@@ -1,0 +1,152 @@
+\chapter{prostredie}
+\todo[inline]{fixnut nazov kapitoly}
+
+\section{História}
+
+Názov prostredia vznikol podľa krstného mena divadelnej hry R.U.R.\footnote{česky Rossumovi Univerzální Roboti} Karla Čapka, ktorý bol tiež prvým človekom v histórii používajúci slovo Robot a to práve v spomenutej hre.
+Programovací jazyk bol údajne\cite{karelnawiki} prvý krát vytvorený Richardom E. Pattisom v roku 1981 na Standfordskej univerzite v Kalifornii.
+Vďačne používaným sa stal hlavne vďaka svojej jednoduchosti a prívetivej téme robotiky.
+
+V rokoch 1987 a 1988 pre jeho sloveneskú mutáciu vychádzala dokonca séria článkov v časopise Zenit pionierov\cite{ZENIT}.
+Bol určený pre vtedajší počítač PMD 85\footnote{Pieštanský Mikropočítač Displejový}.
+Články boli písané hravou formou, aby boli blízke mladému čiteľovi. Vydavatelia dokonca zorganizovali v programovaní v tomto jazyku súťaž s možnosťou postúpiť do krajského a celoštátneho kola.
+
+Karel od jeho vzniku prešiel procesom rôznych zlepšení.
+Bol vytvorený tiež jazyk Karel++\footnote{\href{http://csis.pace.edu/~bergin/karel.html}{http://csis.pace.edu/\~{}bergin/karel.html}} alebo vznikla jeho implementácia formou kniznice pre rôzne vyššie programovacie jazyky ako Java\footnote{\href{http://web.stanford.edu/class/cs106a/book/karel-the-robot-learns-java.pdf}{http://web.stanford.edu/class/cs106a/book/karel-the-robot-learns-java.pdf}} alebo Python\footnote{\href{http://gvr.sourceforge.net/}{http://gvr.sourceforge.net/}}
+
+\section{Porovnanie s ostatnymi}
+
+\todo[inline]{
+- nasiel som rozne verzie karla. malo z nich dava aj ulohy. tie, ktore ano, tak nie vzdy systematicky. z tych, odkial by som mohol aspon nieco cerpat:\\
+-- MTSU: https://www.cs.mtsu.edu/~untch/karel/links.html\\
+-- Stanford: http://web.stanford.edu/class/cs106a/book/karel-the-robot-learns-java.pdf\\
+-- slabe, ale nieco male inspirativne: http://karel.oldium.net/priklady.html\\
+-- IEEE: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6554131\\
+-- Masarykova uni: http://tutor.fi.muni.cz/index.php?p=training_solve&problem_id=6\\
+-- Jaro/Mirka: https://vybo.gjh.sk/?page=karel\\
+-- http://mormegil.wz.cz/prog/index.html \\
+-- http://www.emil.input.sk/info_en.htm \\
+-- http://gvr.sourceforge.net/links.php\\
+-- https://csis.pace.edu/~bergin/karel/ecoop2000JBKarel.html\\
+-- To co mala Basa na MUNI
+}
+
+
+
+\section{Preklopenie}
+
+Nakoľko verzia Karla od Mgr. Ľuboša Košúta\cite{KOSUT97}bola dobre na naprogramovaná\footnote{skoro žiadna chybovosť, slovenská mutácia, prehľadný kód} a autor súhlasil nadviazaním na jeho projekte, rozhodlo sa, že sa bude stavať na uvedenej verzii. 
+Spomenutý projekt bol od svojho publikovania v roku 1997 upravovaný Mgr. Jaroslavom Výbošťokom, pre potreby vyučovania na Gymnáziu Jura Hronca a Základnej škole Košícká\footnote{Aktuálne už ako jeden subjekt Spojená škola Novohradská}.
+
+Vznikla požiadavka na vytvorenie nového kompilátu pre systém Microsoft Windows 64-bitovej verzie, nakoľko tam pôvodnú verziu nebolo možné spustiť.
+Okrem toho sa požadovalo skompilovanie pre operačný systém Linux.
+Na základe požiadaviek sa uznieslo, že bude potrebné ,,preklopenie'' projektu z prostredia Delphi do prostredia Lazarus založenom na kompilátore freepascal.
+
+Prostredie takéto preklopenie natívne podporuje avšak s určitými obmedzeniami.
+Bolo potrebné dodatočné opravenie gramatiky, nakoľko išlo o slovenské program.
+
+
+\todo[inline]{zvazit ci este nieco neplnit, ale ved koho zaujmaju programatorske zvasty o tom, co som musel fixovat. hlavne, ze to funguje}
+
+\section{Funkcionalita}
+\todo[inline]{
+popis prostredia\\
+narabanie s projektom \\
+zmeny prostredia \\
+prikazy \\
+spomenut, ze povodna verzia mala highlighter a preco sa odstranil \\
+pozriet este Lubovu pracu, ci sa neoplati nieco konkretne z nej citovat \\
+zvazit a zdovodnit pridanie prikazu vpravo \\
+
+}
+\section{Pridaná funkcionalita}
+
+Hlavným prínosom práce, okrem metodiky pre učiteľov, pridaná funkcionalita a oprava niekoľkých chýb, o ktorých nás vyučujúci počas výskumu informovali alebo tie, na ktoré si prišli sami. 
+
+\subsection{Zadania}
+
+Z výskumu vzišla požiadavka o možnosť tvorby zadaní.
+Funkcionalita by mala vyučujúcemu zjednodušiť prácu pri príprave a zadávaní úloh, ktoré majú žiaci plniť.
+Prínos je cítiteľný aj v prípade, že je študent neprítovný.
+Vyučujúci má zjednodušenú možnosť, ako žiakovy ukázať aj požiadavku na finálny výsledok.
+
+Funkciu zadaní nie je potrebné samostatne zapínať, nakoľko je automaticky dostupná.
+
+Jeden projekt môže obsahovať viac zadaní.
+Každé zadanie má svôj názov, slovný popis a ukážku riešenia.
+
+V pravá časť prostredia je rozdelená na 3 časti.
+
+\begin{itemize}
+    \item Slovený popis zadania \\
+Žiak si môže prečítať, popis problému, ktorý mu zadal učiteľ.
+    \item Zobrazenie riešenia \\
+Kliknutím na tlačidlo sa študentovi zobrazí samostatné okno, v ktorom je ukážka rozmiestnenia tehál, značiek a karla v miestnosti tak, ako to učiteľ od žiaka požaduje.
+    \item Zoznam zadaní/problémov \\
+V liste si môže žiak zvoliť zadanie, ktoré chce riešiť.
+Ak žiak prepíma medzi zadaniami, riešenie každého zostáva uložené v stave, v akom ho zanechal a nevracia sa to inicializačnej polohy.
+\end{itemize}
+\todo[inline]{domysliet ci nechcem pridat aj reset zadania, aby ked to poondi mohol lahko zacat od zaciatku - asi to spravime, len treba domysliet implementaciu}
+
+\begin{figure}[ht]
+\centering
+\missingfigure{Sem pôjde screenshot z prostredia, kde je niekolko zadani}
+\caption{Zadania}
+\end{figure}
+
+Príkazy, ktoré žiak vytvoril v jednom zadaní sa zdieľajú a môže ich opäť využiť pri riešení ďalšieho zadania.
+Odporúčame učiteľom, aby v zadaniach žiakom povedali, aby rozumne pomenovali ich riešenia, napríklad: ,,prikaz riesenie1''.
+
+Prostredie na tvorbu zadaní je implementované priamo v hlavnom prostredí.
+Učiteľ si možnosť editácia odomkne stlačením tlačidla Pause\todo{toto mozno este zmenime}.
+
+Od tohto momentu môže zadávateľ robiť úpravy zadaní.
+Slovné popisy sa upravujú priamo v mieste, kde sa žiakom zobrazoval slovný popis.
+Vkladanie zadaní, ich premenovanie a mazanie je možné prostredníctvom pravého kliku v zozname zadaní.
+Úvodná konstelácia a ukážka riešenia sa realizuje priamo v prostredí, kde žiaci bežne riešia problémy.
+Sú na to použité aj rovnaké príkazy.
+Ak má učiteľ záujem namiesto editácie východzej konštelácie upravovať ukážku riešenia, využije tlačidlo\todo{teraz neviem, ako sa vola}, ktoré je situované na mieste, z ktorého si žiaci zobrazovali zadanie.
+Pri jeho stlačení sa úvodná konštelácia skryje na jej mieste sa zobrazí požiadavka na riešenie problému.
+Opätovným stlačením sa učiteľ znova dostane späť k editácii úvodného rozloženia.
+
+\todo[inline]{zvazujem pridat pre ucitela aj priamy rezim, lebo sa obavam, ze sa uprikazuje, kym vytvori zadanie. na druhu stranu by si aspon overil, ze jeho zadanie ma skutocne riesenie ;)}
+
+\subsection{Prostredie na ladenie}
+
+Ďalším rozšírením je možnosť ladenia\footnote{anglicky debugging} respektíve krokovania.
+Do tohto režimu je možné sa dostať dvoma spôsobmi:
+\begin{itemize}
+    \item Pozastavením počas vykonávania \\
+Prostredie doteraz umožňovalo zastaviť proces vykonávania stlačením tlačidla stop.
+V tomto prípade sa všetka vykonávaná akcia pozastavila a nebolo mžné v nej porkačovať.
+K tomuto tlačidlu bolo pridané druhé pozastav. \todo[]{este zvazujem zmenu nazvu a spravenia peknej ikonky}
+    \item Pozastavenie prostredníctvom jazyka \\
+Do jazyka prostredia bol pridaný príkaz pozastav. \todo[]{este zvazit zmenu, ale asi nie. toto je vyztizne}
+Zavolanie tohto príkazu je ekvivalentné stlačeniu tlačidla pozastav.
+V bežne používaných programovacích jazykoch by sme nazvali túto ,,značku'' ako breakpoint.
+Nevýhohou je, že k pozastaveniu dôjde vždy narozdiel od bežných programovacích prostredí, kde je možné breakpoint počas behu programu odstraniť.
+\end{itemize}
+
+\begin{figure}[ht]
+\centering
+\missingfigure{Sem pôjde screenshot tlacidiel resp. skor ladiaceho okna}
+\caption{Tlačidlá}
+\end{figure}
+
+Vykonaním tejto pozastavovacej akcie sa anuluje príkaz rýchlo, lebo by nebolo možné skúmať vykonávaný krok. \todo[]{tu este zavujem, ci po zruseni pozastavenia sa vratit aj prikaz rychlo do povedneho stavu - asi by sa hodilo}
+
+Od momentu pozastavenia sa žiak nachádza v móde ladenia.
+Môže v ňom pokračovať po krokoch\footnote{V tomto kontexte je vhodnejšie použiť spojenie ,,po príkazoch'', nakoľko slovo krok je rezervovaným slovom jazyka Karel pre vykonanie posunu vpred} ďalej.
+
+Návrat do režimu štandardného pokračovanie je možný dvoma spôsobmi:
+\begin{itemize}
+    \item Stlačením tlačidla pokračuje \\
+Toto tlačidlo je situované na ladiacom panely\footnote{zatial je na podovnom mieste, treba ho presunut}
+    \item Použitím príkazu pokračuj \\
+
+\end{itemize}
+\todo[inline]{Stojí za zváženie odstránenie tohto príkazu. Ved ani bezne nemas ani breakponty v programoch}
+\todo[inline]{zvazujem zobrazovanie aktualnej casti kodu - treba domysliet, ako a tiez v pripade opakovani cislo iteracie. plus by mohol zobrazovat, ako by sa pre aktualnu situaciu vyhodnotili podmienky: stena, volno, tehla, znacka}
+\todo[inline]{ani aktualne vchadzanie do ladenia mi neprijde az tak fajn. po pauznuti to dam asi do samostatneho okna}
+\todo[inline]{zmenit formulaciu zaverecnej hlasky. co sa zlepsilo od 90tych rokov? vsetko je zalozene na intuicii. ano treba ziakov ucit k doslednosti citania, ale myslim si, ze by sa dal najst aj lepsi sposob, ako narusovat userexperience o Karlovi ;) }
+\todo[inline]{pridane nie aj resetnutie zadania, aby sa dalo skusat = ziak si to pokazi, treba ist odznovu}
